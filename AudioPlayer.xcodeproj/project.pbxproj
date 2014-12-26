@@ -19,6 +19,7 @@
 		BC9FEEF71A4D570F00119230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9FEEDF1A4D570F00119230 /* UIKit.framework */; };
 		BC9FEEFF1A4D570F00119230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9FEEFD1A4D570F00119230 /* InfoPlist.strings */; };
 		BC9FEF011A4D570F00119230 /* AudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FEF001A4D570F00119230 /* AudioPlayerTests.m */; };
+		BC9FEF0C1A4D573000119230 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FEF0B1A4D573000119230 /* VCRoot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		BC9FEEFC1A4D570F00119230 /* AudioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		BC9FEEFE1A4D570F00119230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC9FEF001A4D570F00119230 /* AudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerTests.m; sourceTree = "<group>"; };
+		BC9FEF0A1A4D573000119230 /* VCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		BC9FEF0B1A4D573000119230 /* VCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				BC9FEEEA1A4D570F00119230 /* AppDelegate.h */,
 				BC9FEEEB1A4D570F00119230 /* AppDelegate.m */,
+				BC9FEF0A1A4D573000119230 /* VCRoot.h */,
+				BC9FEF0B1A4D573000119230 /* VCRoot.m */,
 				BC9FEEED1A4D570F00119230 /* Images.xcassets */,
 				BC9FEEE21A4D570F00119230 /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9FEF0C1A4D573000119230 /* VCRoot.m in Sources */,
 				BC9FEEEC1A4D570F00119230 /* AppDelegate.m in Sources */,
 				BC9FEEE81A4D570F00119230 /* main.m in Sources */,
 			);
